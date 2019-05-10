@@ -207,7 +207,7 @@ public class RealOPCMaster extends Thread implements OPCMaster {
 	 * Realiza um synch read do grupo do datasource
 	 */
 	public void doPoll() throws Exception {
-
+		getOpcUtils().getMapScada().clear(); // To prevent mapScada growing on every OPC read
 		getOpcUtils().readOPCItemsMap(getNameOPCItems());
 
 	}
