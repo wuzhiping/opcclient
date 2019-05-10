@@ -2,11 +2,11 @@
 opc ua for scada
 
 # Todo
-## Memory Leak
+1. Memory Leak
 ### RealOPCMaster->doPoll() 
 
-## enableReconnect after connect
-###OPCUtils->connect(x,y,z)
+2. enableReconnect after connect
+### OPCUtils->connect(x,y,z)
 
-## !QUALITY_GOOD 
-###RealOPCMaster->getValue()
+3. !QUALITY_GOOD 
+### RealOPCMaster->getValue()
