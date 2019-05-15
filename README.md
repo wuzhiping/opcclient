@@ -8,5 +8,5 @@ opc ua for scada
 2. enableReconnect after connect
 ### OPCUtils->connect(x,y,z)
 
-3. ~~!QUALITY_GOOD ~~ 
+3. ~~!QUALITY_GOOD~~
 ### RealOPCMaster->getValue()
