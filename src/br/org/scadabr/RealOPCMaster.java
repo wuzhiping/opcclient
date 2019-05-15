@@ -269,7 +269,8 @@ public class RealOPCMaster extends Thread implements OPCMaster {
 				value = getOpcUtils().getValueOPC(getOpcUtils().getMapScada().get(opcItem).getValue());
 			}
 		} catch (Exception e) {
-			value = toStringQuality(quality);
+			// value = toStringQuality(quality);
+			throw new Exception("NOT QUALITY_GOOD");
 		}
 
 		return value;
