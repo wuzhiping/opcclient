@@ -162,10 +162,10 @@ public class  OPCUtils {
 			try {
 					getMapScada().put(getMapNameItem().get(nameOPCItem.get(i)), getMapNameItem().get(nameOPCItem.get(i)).read(true));
 			} catch (Exception e) {
-				ItemState is = new ItemState();
-				JIVariant ji = new JIVariant("u64/?");
-				is.setValue(ji);
-				getMapScada().put(getMapNameItem().get(nameOPCItem.get(i)), is);
+// 				ItemState is = new ItemState();
+// 				JIVariant ji = new JIVariant("u64/?");
+// 				is.setValue(ji);
+// 				getMapScada().put(getMapNameItem().get(nameOPCItem.get(i)), is);
 
 				throw new Exception("[OPC] READ OPC ITEMS MAP Failed!");
 			}
