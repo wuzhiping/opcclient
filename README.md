@@ -1,3 +1,5 @@
+https://mvnrepository.com/artifact/org.openscada.utgard/org.openscada.opc.lib/1.5.0
+
 # opc-driver.jar
 opc da classical for scada
 
